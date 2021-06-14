@@ -1,0 +1,87 @@
+[
+  {
+    "time": "2020.04",
+    "name": "肇庆唯品会仓库无线升级改造项目",
+    "money": "10万+",
+    "content": "仓库无线覆盖升级",
+    "brand": "H3C"
+  },
+  {
+    "time": "2019.03",
+    "name": "广州金领技工学校新建校园网络",
+    "money": "80万+",
+    "content": "新建校园网络一、二期",
+    "brand": "HUAWEI"
+  },
+  {
+    "time": "2020.08",
+    "name": "深圳中学（泥岗校区）行政楼智能化建设",
+    "money": "30万+",
+    "content": "行政楼网络整体部署",
+    "brand": "HUAWEI"
+  },
+  {
+    "time": "2020.04",
+    "name": "周大福珠宝办公智能化",
+    "money": "88万+",
+    "content": "全国办公网点无线",
+    "brand": "CISCO"
+  },
+  {
+    "time": "2020.10",
+    "name": "盐田体育馆网络扩建项目",
+    "money": "50万+",
+    "content": "体育馆网络升级改造",
+    "brand": "HUAWEI"
+  },
+  {
+    "time": "2021.04",
+    "name": "重庆国信金融新建办公网络",
+    "money": "35万+",
+    "content": "分部机房新建网络及与总部对接",
+    "brand": "HUAWEI"
+  },
+  {
+    "time": "2020.11",
+    "name": "易宝软件办公网络增补",
+    "money": "10万+",
+    "content": "深圳办公室网络增补",
+    "brand": "HUAWEI、ARUBA"
+  },
+  {
+    "time": "2021.01",
+    "name": "迅龙创威办公无线覆盖",
+    "money": "22万+",
+    "content": "办公区域无线覆盖",
+    "brand": "RUCKUS"
+  },
+  {
+    "time": "2021.03",
+    "name": "深圳文华东方酒店新建网络",
+    "money": "45万+",
+    "content": "酒店办公网络新建",
+    "brand": "HUAWEI"
+  },
+  {
+    "time": "2020.12",
+    "name": "货拉拉深圳客服中心网络升级",
+    "money": "57万+",
+    "content": "部分办公楼层网络升级",
+    "brand": "HUAWEI"
+  },
+  {
+    "time": "2021.01",
+    "name": "深圳市第十高级中学暨深实验筹建项目",
+    "money": "68万+",
+    "content": "新建校园网络",
+    "brand": "HUAWEI"
+  },
+  {
+    "time": "2021.03",
+    "name": "中银国际深圳机房设备迁移",
+    "money": "12万+",
+    "content": "新老设备割接迁移",
+    "brand": "CISCO、Checkpoint、HUAWEI"
+  }
+]
+
