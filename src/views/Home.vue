@@ -1,9 +1,11 @@
 <template>
   <div class="home">
     <el-row>
-      <el-carousel height="40vh" direction="vertical" :autoplay="false">
+      <el-carousel height="500px" direction="vertical" :autoplay="false">
         <el-carousel-item
-          :style="{ background: `url(${home}) center 20%/100%` }"
+          :style="{
+            background: `url(${home}) center 25%/100%`,
+          }"
         >
           <div class="bigTitle">天时&nbsp;地利&nbsp;人和</div>
           <div class="bigInfo">——做有品质的ICT服务商</div>
@@ -78,9 +80,12 @@
     <el-row class="teamwork">
       <div class="top">
         <p class="title">合作伙伴</p>
+        <p class="info">
+          深圳市天地和网络有限公司已经与HUAWEI、Cisco、H3C、Uniview、IBM等国内外优秀企业结为重要的战略合作伙伴关系，双方优势互补，合作共赢，共同推动中国网络产业发展。
+        </p>
       </div>
       <el-row class="content">
-        <el-col :span="5" v-for="(item, index) in partner" :key="index">
+        <el-col :span="6" v-for="(item, index) in brand" :key="index">
           <el-image fit="scale-down" style="height: 10vh" :src="item.url" />
         </el-col>
       </el-row>

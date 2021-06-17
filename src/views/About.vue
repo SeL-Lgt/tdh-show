@@ -65,23 +65,23 @@ export default {
     return {
       honor: [
         {
-          url: fxgj
+          url: fxgj,
         },
         {
-          url: H3C
+          url: H3C,
         },
         {
-          url: hw3z
+          url: hw3z,
         },
         {
-          url: hzhb
-        }
+          url: hzhb,
+        },
       ],
       listUrl: [fxgj, H3C, hw3z, hzhb],
       brand: brand,
-      partner: partner
+      partner: partner,
     };
-  }
+  },
 };
 </script>
 

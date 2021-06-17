@@ -10,6 +10,10 @@ Vue.config.productionTip = false;
 
 Vue.use(ElementUI);
 
+router.afterEach(() => {
+  window.scrollTo(0, 0);
+});
+
 router.beforeEach((to, from, next) => {
   document.title = "深圳市天地和网络有限公司";
   next();

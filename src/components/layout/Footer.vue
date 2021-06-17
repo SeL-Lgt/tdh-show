@@ -2,12 +2,12 @@
   <div id="footer">
     <el-row>
       <el-col :span="8" class="nav">
-        <div>官网首页</div>
-        <div>解决方案</div>
-        <div>成功案例</div>
-        <div>服务支持</div>
-        <div>人才招聘</div>
-        <div>关于我们</div>
+        <div @click="toNav('Home')">官网首页</div>
+        <div @click="toNav('DataCenter')">解决方案</div>
+        <div @click="toNav('Case')">成功案例</div>
+        <div @click="toNav('Service')">服务支持</div>
+        <div @click="toNav('Recruitment')">人才招聘</div>
+        <div @click="toNav('About')">关于我们</div>
       </el-col>
 
       <el-col :span="8">
@@ -32,15 +32,26 @@
       </el-col>
     </el-row>
     <el-row class="record">
-      <div class="foot-title">Copyright&nbsp;©<span>2021深圳市天地和网络有限公司</span></div>
-      <a href="https://beian.miit.gov.cn" target="_blank">ICP备案号：粤ICP备2021048195号</a>
+      <div class="foot-title">
+        Copyright&nbsp;©<span>2021深圳市天地和网络有限公司</span>
+      </div>
+      <a href="https://beian.miit.gov.cn" target="_blank"
+        >ICP备案号：粤ICP备2021048195号</a
+      >
     </el-row>
   </div>
 </template>
 
 <script>
 export default {
-  name: "Footer"
+  name: "Footer",
+  methods: {
+    toNav(item) {
+      this.$router.push({
+        name: item,
+      });
+    },
+  },
 };
 </script>
 
@@ -71,7 +82,7 @@ export default {
     .foot-title {
       white-space: break-spaces;
       padding: 1vh 0;
-      span{
+      span {
         margin-left: 0.5vw;
       }
     }
