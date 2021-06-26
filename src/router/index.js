@@ -37,7 +37,7 @@ const routes = [
         path: "dataCenter",
         name: "DataCenter",
         meta: {
-          title: "数据中心",
+          title: "网络安全",
           type: "DataCenter",
         },
         component: SolutionList,
@@ -55,7 +55,7 @@ const routes = [
         path: "cloud",
         name: "Cloud",
         meta: {
-          title: "云计算",
+          title: "无线方案",
           type: "Cloud",
         },
         component: SolutionList,
@@ -71,22 +71,22 @@ const routes = [
       },
     ],
   },
-  {
-    path: "/case",
-    name: "Case",
-    meta: {
-      title: "成功案例",
-    },
-    component: Case,
-  },
-  {
-    path: "/service",
-    name: "Service",
-    meta: {
-      title: "服务支持",
-    },
-    component: Service,
-  },
+  // {
+  //   path: "/case",
+  //   name: "Case",
+  //   meta: {
+  //     title: "成功案例",
+  //   },
+  //   component: Case,
+  // },
+  // {
+  //   path: "/service",
+  //   name: "Service",
+  //   meta: {
+  //     title: "服务支持",
+  //   },
+  //   component: Service,
+  // },
   {
     path: "/recruitment",
     name: "Recruitment",

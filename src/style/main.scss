@@ -31,3 +31,7 @@ $scrollbarBackground:#f5f5f5;
 ::-webkit-scrollbar:vertical{
   display: none;
 }
+* {
+  -ms-overflow-style:none; /* Edge */
+  scrollbar-width: none; /* Firefox */
+}

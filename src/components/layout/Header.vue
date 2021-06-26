@@ -82,7 +82,7 @@ export default {
           subs: [
             {
               index: "dataCenter",
-              title: "数据中心",
+              title: "网络安全",
             },
             {
               index: "network",
@@ -90,20 +90,20 @@ export default {
             },
             {
               index: "cloud",
-              title: "云计算",
+              title: "无线方案",
             },
           ],
         },
-        {
-          icon: "el-icon-s-order",
-          index: "/case",
-          title: "成功案例",
-        },
-        {
-          icon: "el-icon-s-order",
-          index: "/service",
-          title: "服务支持",
-        },
+        // {
+        //   icon: "el-icon-s-order",
+        //   index: "/case",
+        //   title: "成功案例",
+        // },
+        // {
+        //   icon: "el-icon-s-order",
+        //   index: "/service",
+        //   title: "服务支持",
+        // },
         {
           icon: "el-icon-s-order",
           index: "/recruitment",

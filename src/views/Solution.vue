@@ -65,7 +65,7 @@
         </el-scrollbar>
       </el-aside>
       <el-main>
-        <router-view />
+          <router-view />
       </el-main>
     </el-container>
   </div>
@@ -81,7 +81,7 @@ export default {
       items: [
         {
           index: "DataCenter",
-          title: "数据中心",
+          title: "网络安全",
           subs: dataCenter,
         },
         {
@@ -91,7 +91,7 @@ export default {
         },
         {
           index: "Cloud",
-          title: "云计算",
+          title: "无线方案",
           subs: cloud,
         },
       ],

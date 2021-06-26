@@ -50,6 +50,7 @@
     ::v-deep .el-card__body {
       padding: 1vh 2vw;
       width: 100%;
+
     }
 
     .card {
@@ -57,33 +58,37 @@
       background: linear-gradient(225deg, #ffffff, #dadada);
       box-shadow: -20px 20px 60px #cecece, 20px -20px 60px #ffffff;
 
-      //.title {
-      //  font-size: 2rem;
-      //  font-weight: 600;
-      //  margin-bottom: 10px;
-      //}
-      //
-      //.info {
-      //  color: #909399;
-      //  font-size: 1.2rem;
-      //  border-bottom: 1px solid #909399;
-      //  margin-bottom: 10px;
-      //}
-      //
-      //.message {
-      //  color: #909399;
-      //  font-size: 1rem;
-      //}
-      //
-      //svg path {
-      //  fill: #2c2c2c;
-      //}
-      //
-      //&:hover svg path,
-      //&:hover .title {
-      //  fill: #409eff;
-      //  color: #409eff;
-      //}
+      .layout{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .el-image{
+        height:80%;
+        ::v-deep .el-image__inner{
+          max-height: 30vh;
+        }
+      }
+
+      .title{
+        font-size: 1.2rem;
+        font-weight: 550;
+        margin-bottom: 0.5rem;
+      }
+      .type{
+        font-size: 0.9rem;
+        margin-bottom: 0.5rem;
+        color: #7c7c7c;
+      }
+      .message{
+        padding: 0 10px;
+        font-size:1rem;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp:6;
+        -webkit-box-orient: vertical;
+      }
     }
   }
 }
@@ -121,4 +126,8 @@
 
 ::v-deep .el-carousel__indicators {
   opacity: 0;
+}
+
+::v-deep .el-carousel{
+  text-align: center;
 }

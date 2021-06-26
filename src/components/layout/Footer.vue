@@ -4,10 +4,10 @@
       <el-col :span="8" class="nav">
         <div @click="toNav('Home')">官网首页</div>
         <div @click="toNav('DataCenter')">解决方案</div>
-        <div @click="toNav('Case')">成功案例</div>
-        <div @click="toNav('Service')">服务支持</div>
+<!--        <div @click="toNav('Service')">服务支持</div>-->
         <div @click="toNav('Recruitment')">人才招聘</div>
         <div @click="toNav('About')">关于我们</div>
+        <!--        <div @click="toNav('Case')">成功案例</div>-->
       </el-col>
 
       <el-col :span="8">

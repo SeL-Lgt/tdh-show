@@ -1,19 +1,30 @@
 <template>
   <div id="tips">
     <el-row>
-      <div>
-        <i class="el-icon-info" />
-      </div>
+      <el-popover
+        placement="left"
+        title="公司邮箱"
+        width="4vw"
+        trigger="click"
+        content="wangyj@chinatdhc.com"
+      >
+        <el-button slot="reference">
+          <i class="el-icon-info" />
+        </el-button>
+      </el-popover>
     </el-row>
     <el-row>
-      <div>
-        <i class="el-icon-phone-outline" />
-      </div>
-    </el-row>
-    <el-row>
-      <div>
-        <i class="el-icon-mobile-phone" />
-      </div>
+      <el-popover
+        placement="left"
+        title="联系电话"
+        width="4vw"
+        trigger="click"
+        content="0755-82899455"
+      >
+        <el-button slot="reference">
+          <i class="el-icon-phone-outline" />
+        </el-button>
+      </el-popover>
     </el-row>
     <el-row>
       <div @click="goTop">
@@ -48,7 +59,7 @@ export default {
   transform: translateY(-50%);
   z-index: 2;
   width: 4vw;
-  height: 25vh;
+  height: 20vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -57,6 +68,11 @@ export default {
   background: linear-gradient(225deg, #f0f0f0, #ffffff);
   box-shadow: 5px 10px 13px #535353, 16px -16px 13px #0000;
 
+  .el-button {
+    background: transparent;
+    border: 0;
+    padding: 0;
+  }
   .el-row {
     height: 100%;
     display: flex;
