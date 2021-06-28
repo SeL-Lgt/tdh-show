@@ -81,12 +81,12 @@ export default {
           title: "解决方案",
           subs: [
             {
-              index: "dataCenter",
-              title: "网络安全",
-            },
-            {
               index: "network",
               title: "企业网络",
+            },
+            {
+              index: "dataCenter",
+              title: "网络安全",
             },
             {
               index: "cloud",
