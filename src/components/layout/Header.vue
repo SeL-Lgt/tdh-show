@@ -7,7 +7,7 @@
       <el-menu
         router
         unique-opened
-        :default-active="$router.path"
+        :default-active="routerPath()"
         mode="horizontal"
       >
         <template v-for="item in items">
@@ -116,6 +116,19 @@ export default {
         },
       ],
     };
+  },
+  methods: {
+    routerPath() {
+      if (this.$route.meta.type !== "Detail") {
+        return this.$route.path;
+      } else {
+        const type = location.href
+          .split("type=")[1]
+          .split("&")[0]
+          .toLowerCase();
+        return `/solution/${type}`;
+      }
+    },
   },
 };
 </script>
